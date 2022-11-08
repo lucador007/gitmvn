@@ -14,6 +14,7 @@ public class testMvn
 		//driver.get("https://www.google.com");
 		
 		System.out.println("Hello Maven!");
+		System.out.println("***********TestCheckin***********");
 	}
 	
 
