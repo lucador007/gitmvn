@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and data providers.]]>
+    </line>
+    <line>
+      <![CDATA[Setup done for reports and data providers - Test Started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start the browser and getting application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser and application is up and running]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed >>> Report Generated]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed >>> Report Generated]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-27T17:23:00 IST" name="Suite" finished-at="2023-01-27T17:23:06 IST" duration-ms="6283">
+    <groups>
+    </groups>
+    <test started-at="2023-01-27T17:23:00 IST" name="Test" finished-at="2023-01-27T17:23:06 IST" duration-ms="6283">
+      <class name="framework.testcases.testcaseCRM">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:framework.testcases.testcaseCRM@4fb61f4a]" started-at="2023-01-27T17:22:59 IST" name="setupSuite" finished-at="2023-01-27T17:23:00 IST" duration-ms="1400" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and data providers.]]>
+            </line>
+            <line>
+              <![CDATA[Setup done for reports and data providers - Test Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:framework.testcases.testcaseCRM@4fb61f4a]" started-at="2023-01-27T17:23:00 IST" name="setupBrowser" finished-at="2023-01-27T17:23:04 IST" duration-ms="4136" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start the browser and getting application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser and application is up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="LoginApp()[pri:0, instance:framework.testcases.testcaseCRM@4fb61f4a]" started-at="2023-01-27T17:23:04 IST" name="LoginApp" finished-at="2023-01-27T17:23:05 IST" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApp -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:framework.testcases.testcaseCRM@4fb61f4a]" started-at="2023-01-27T17:23:05 IST" name="tearDownMethod" finished-at="2023-01-27T17:23:06 IST" duration-ms="935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginApp status=SUCCESS method=testcaseCRM.LoginApp()[pri:0, instance:framework.testcases.testcaseCRM@4fb61f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed >>> Report Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="LoginApp1()[pri:0, instance:framework.testcases.testcaseCRM@4fb61f4a]" started-at="2023-01-27T17:23:06 IST" name="LoginApp1" finished-at="2023-01-27T17:23:06 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApp1 -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:framework.testcases.testcaseCRM@4fb61f4a]" started-at="2023-01-27T17:23:06 IST" name="tearDownMethod" finished-at="2023-01-27T17:23:06 IST" duration-ms="424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginApp1 status=SUCCESS method=testcaseCRM.LoginApp1()[pri:0, instance:framework.testcases.testcaseCRM@4fb61f4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed >>> Report Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:framework.testcases.testcaseCRM@4fb61f4a]" started-at="2023-01-27T17:23:06 IST" name="tearDown" finished-at="2023-01-27T17:23:06 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- framework.testcases.testcaseCRM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

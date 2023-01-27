@@ -1,0 +1,12 @@
+Create Framework Maven project
+Under Project folder create - Reports - Screenshots - TestData - Drivers - XMLFiles - Config Folders
+Under src/test/jav Create - framework.pages - framework.testcases - framework.utility packages 
+In POM.XML file add dependencies for - Selenium Java- TestNG - Extentreports - Apache POI
+
+First POM test case---------
+Create Page Class for Login page for login method taking username and password as arguments
+Create Browserfactory under utility to create reusable methods to start and stop the application
+Create Base class to have beforeclass and afterclass testng methods . Before class will have the function to setup Browser i.e to call Browser factory method to open and load the url and retunr the driver instance
+Create Sample test case to extend Base class and create @Test method to try login functionality
+-------------------
+
