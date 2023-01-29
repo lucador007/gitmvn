@@ -1,6 +1,7 @@
 package framework.testcases;
 
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
@@ -21,6 +22,7 @@ public class testcaseCRM extends BaseClass
 		logger.info("Starting Application.");
 	  login.LoginToWebpage(excel.getStringData("Login", 0, 0), excel.getStringData(0, 0, 1)); 
 	  	logger.pass("Login Success.");
+	  	Reporter.log("This log is in test method");
 	  }
 	  @Test 
 	  public void LoginApp1() 

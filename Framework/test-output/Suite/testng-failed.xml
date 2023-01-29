@@ -8,6 +8,7 @@
           <include name="tearDown"/>
           <include name="setupSuite"/>
           <include name="setupBrowser"/>
+          <include name="LoginApp1"/>
           <include name="LoginApp"/>
           <include name="tearDownMethod"/>
         </methods>

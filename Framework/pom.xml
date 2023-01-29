@@ -3,7 +3,6 @@
 	<groupId>Framework</groupId>
 	<artifactId>Framework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
@@ -37,7 +36,7 @@
 			<version>5.2.2</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
-		
+
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
@@ -51,21 +50,31 @@
 		</dependency>
 	</dependencies>
 	<build>
-	<plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.0.0-M8</version>
-        <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>XMLFiles\testng.xml</suiteXmlFile>
-          </suiteXmlFiles>
-          
-          <systemPropertyVariables>
-          <executionbrowser>${browser}</executionbrowser>
-          </systemPropertyVariables>
-        </configuration>
-      </plugin>
-</plugins>
-</build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.0</version>
+				<configuration>
+					<compilerVersion>1.8</compilerVersion>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.17</version>
+				<configuration>
+
+					<suiteXmlFiles>
+						<suiteXmlFile>XMLFiles\testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+
+				</configuration>
+			</plugin>
+		</plugins>
+
+	</build>
 </project>

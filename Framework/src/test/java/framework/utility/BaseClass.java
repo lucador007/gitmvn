@@ -17,8 +17,6 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
-
-  
   public  class BaseClass { 
   public WebDriver driver;
   public ExcelDataProvider excel;
@@ -38,12 +36,10 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 	  report.attachReporter(extent);
 	  Reporter.log("Setup done for reports and data providers - Test Started",true);
   }
-  @Parameters("browser")
-  @BeforeClass public void setupBrowser(String browser) 
+  @BeforeClass public void setupBrowser() 
 	{
 	  	Reporter.log("Trying to start the browser and getting application ready",true);
-		 //driver=BrowserFactory.startApplication(driver,config.getBrowser(),config.getQaURL()); 
-		 driver=BrowserFactory.startApplication(driver,browser,config.getQaURL()); 
+		driver=BrowserFactory.startApplication(driver,config.getBrowser(),config.getQaURL()); 
 		Reporter.log("Browser and application is up and running",true);
 		 }
 	@AfterClass public void tearDown() 
